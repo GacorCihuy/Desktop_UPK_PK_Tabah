@@ -1,0 +1,11 @@
+C:\Users\kiris\source\repos\upk_pk_tabah\bin\Debug\upk_pk_tabah.exe.config
+C:\Users\kiris\source\repos\upk_pk_tabah\bin\Debug\upk_pk_tabah.exe
+C:\Users\kiris\source\repos\upk_pk_tabah\bin\Debug\upk_pk_tabah.pdb
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.csproj.AssemblyReference.cache
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.Form1.resources
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.Properties.Resources.resources
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.csproj.GenerateResource.cache
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.csproj.CoreCompileInputs.cache
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.exe
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.pdb
+C:\Users\kiris\source\repos\upk_pk_tabah\obj\Debug\upk_pk_tabah.Dashboard.resources
