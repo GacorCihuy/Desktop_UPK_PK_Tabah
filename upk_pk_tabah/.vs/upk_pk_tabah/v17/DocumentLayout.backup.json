@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\kiris\\source\\repos\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\kiris\\source\\repos\\upk_pk_tabah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -34,8 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:07:52.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -53,8 +69,7 @@
               "ToolTip": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T16:31:44.102Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-09T16:31:44.102Z"
             },
             {
               "$type": "Document",
@@ -71,18 +86,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:07:52.736Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kiris\\source\\repos\\upk_pk_tabah\\Form1.Designer.cs",
@@ -91,8 +94,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T16:31:41.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T16:31:41.612Z"
             },
             {
               "$type": "Document",
@@ -116,8 +118,7 @@
               "RelativeToolTip": "GradientPanel.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:05:44.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:05:44.29Z"
             }
           ]
         }
