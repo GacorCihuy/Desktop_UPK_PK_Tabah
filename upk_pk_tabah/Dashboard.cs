@@ -66,5 +66,10 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace upk_pk_tabah
 {
-    public partial class program : UserControl
+    public partial class alumni : UserControl
     {
-        public program()
+        public alumni()
         {
             InitializeComponent();
-        }
-
-        private void program_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

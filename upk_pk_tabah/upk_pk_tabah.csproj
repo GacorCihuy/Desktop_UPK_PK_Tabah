@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alumni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="alumni.Designer.cs">
+      <DependentUpon>alumni.cs</DependentUpon>
+    </Compile>
     <Compile Include="berita.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -58,11 +64,41 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="hadist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hadist.Designer.cs">
+      <DependentUpon>hadist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kategori.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kategori.Designer.cs">
+      <DependentUpon>kategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kontak.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kontak.Designer.cs">
+      <DependentUpon>kontak.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ppdb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ppdb.Designer.cs">
+      <DependentUpon>ppdb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siswa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="siswa.Designer.cs">
+      <DependentUpon>siswa.cs</DependentUpon>
     </Compile>
     <Compile Include="program.cs">
       <SubType>UserControl</SubType>
@@ -71,20 +107,29 @@
       <DependentUpon>program.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TambahBerita.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TambahBerita.Designer.cs">
-      <DependentUpon>TambahBerita.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="alumni.resx">
+      <DependentUpon>alumni.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="berita.resx">
       <DependentUpon>berita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="hadist.resx">
+      <DependentUpon>hadist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kategori.resx">
+      <DependentUpon>kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kontak.resx">
+      <DependentUpon>kontak.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ppdb.resx">
+      <DependentUpon>ppdb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="program.resx">
       <DependentUpon>program.cs</DependentUpon>
@@ -99,8 +144,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TambahBerita.resx">
-      <DependentUpon>TambahBerita.cs</DependentUpon>
+    <EmbeddedResource Include="siswa.resx">
+      <DependentUpon>siswa.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

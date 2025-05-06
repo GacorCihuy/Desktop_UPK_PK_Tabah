@@ -39,15 +39,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bLogin = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBoxeEmail = new System.Windows.Forms.TextBox();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.textBoxeEmail = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.bLogin = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -185,58 +189,6 @@
             this.panel1.Size = new System.Drawing.Size(400, 200);
             this.panel1.TabIndex = 12;
             // 
-            // bLogin
-            // 
-            this.bLogin.BackColor = System.Drawing.Color.SeaGreen;
-            this.bLogin.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.bLogin.ForeColor = System.Drawing.Color.White;
-            this.bLogin.Location = new System.Drawing.Point(738, 489);
-            this.bLogin.Name = "bLogin";
-            this.bLogin.Size = new System.Drawing.Size(267, 42);
-            this.bLogin.TabIndex = 13;
-            this.bLogin.Text = "LOGIN";
-            this.bLogin.UseVisualStyleBackColor = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.Gray;
-            this.label8.Location = new System.Drawing.Point(73, 21);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(260, 12);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "MASUKAN EMAIL DAN PASSSWORD DENGAN BENAR";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBoxeEmail
-            // 
-            this.textBoxeEmail.Location = new System.Drawing.Point(66, 78);
-            this.textBoxeEmail.Name = "textBoxeEmail";
-            this.textBoxeEmail.Size = new System.Drawing.Size(290, 22);
-            this.textBoxeEmail.TabIndex = 13;
-            // 
-            // textBoxPassword
-            // 
-            this.textBoxPassword.Location = new System.Drawing.Point(66, 145);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(290, 22);
-            this.textBoxPassword.TabIndex = 14;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(4)))), ((int)(((byte)(113)))), ((int)(((byte)(4)))));
-            this.label9.Location = new System.Drawing.Point(62, 55);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 19);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "EMAIL";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -251,12 +203,101 @@
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(4)))), ((int)(((byte)(113)))), ((int)(((byte)(4)))));
+            this.label9.Location = new System.Drawing.Point(62, 55);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(50, 19);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "EMAIL";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBoxPassword
+            // 
+            this.textBoxPassword.Location = new System.Drawing.Point(66, 145);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(290, 22);
+            this.textBoxPassword.TabIndex = 14;
+            // 
+            // textBoxeEmail
+            // 
+            this.textBoxeEmail.Location = new System.Drawing.Point(66, 78);
+            this.textBoxeEmail.Name = "textBoxeEmail";
+            this.textBoxeEmail.Size = new System.Drawing.Size(290, 22);
+            this.textBoxeEmail.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.Gray;
+            this.label8.Location = new System.Drawing.Point(73, 21);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(260, 12);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "MASUKAN EMAIL DAN PASSSWORD DENGAN BENAR";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bLogin
+            // 
+            this.bLogin.BackColor = System.Drawing.Color.SeaGreen;
+            this.bLogin.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bLogin.ForeColor = System.Drawing.Color.White;
+            this.bLogin.Location = new System.Drawing.Point(738, 489);
+            this.bLogin.Name = "bLogin";
+            this.bLogin.Size = new System.Drawing.Size(267, 42);
+            this.bLogin.TabIndex = 13;
+            this.bLogin.Text = "LOGIN";
+            this.bLogin.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Location = new System.Drawing.Point(-4, -2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(549, 652);
+            this.panel2.TabIndex = 14;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(117, 247);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(322, 46);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "SELAMAT DATANG";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(160, 297);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(232, 35);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "ADMIN PK TABAH";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1200, 650);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.bLogin);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
@@ -274,6 +315,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,5 +340,8 @@
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.TextBox textBoxeEmail;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
     }
 }

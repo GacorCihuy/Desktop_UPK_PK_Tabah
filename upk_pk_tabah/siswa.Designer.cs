@@ -1,6 +1,6 @@
 ﻿namespace upk_pk_tabah
 {
-    partial class program
+    partial class siswa
     {
         /// <summary> 
         /// Required designer variable.
@@ -38,12 +38,12 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(39, 130);
+            this.dataGridView1.Location = new System.Drawing.Point(42, 131);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(917, 398);
-            this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.TabIndex = 15;
             // 
             // bTambah
             // 
@@ -52,10 +52,10 @@
             this.bTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTambah.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.bTambah.ForeColor = System.Drawing.Color.White;
-            this.bTambah.Location = new System.Drawing.Point(39, 61);
+            this.bTambah.Location = new System.Drawing.Point(42, 62);
             this.bTambah.Name = "bTambah";
             this.bTambah.Size = new System.Drawing.Size(114, 32);
-            this.bTambah.TabIndex = 10;
+            this.bTambah.TabIndex = 14;
             this.bTambah.Text = "TAMBAH +";
             this.bTambah.UseVisualStyleBackColor = false;
             // 
@@ -64,21 +64,21 @@
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.judul.ForeColor = System.Drawing.Color.Green;
-            this.judul.Location = new System.Drawing.Point(34, 20);
+            this.judul.Location = new System.Drawing.Point(37, 21);
             this.judul.Name = "judul";
-            this.judul.Size = new System.Drawing.Size(323, 25);
-            this.judul.TabIndex = 9;
-            this.judul.Text = "HALAMAN PROGRAM UNGGULAN";
+            this.judul.Size = new System.Drawing.Size(173, 25);
+            this.judul.TabIndex = 13;
+            this.judul.Text = "HALAMAN SISWA";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Green;
-            this.panel1.Location = new System.Drawing.Point(17, 20);
+            this.panel1.Location = new System.Drawing.Point(20, 21);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(11, 25);
-            this.panel1.TabIndex = 8;
+            this.panel1.TabIndex = 12;
             // 
-            // program
+            // siswa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,9 +86,8 @@
             this.Controls.Add(this.bTambah);
             this.Controls.Add(this.judul);
             this.Controls.Add(this.panel1);
-            this.Name = "program";
+            this.Name = "siswa";
             this.Size = new System.Drawing.Size(998, 577);
-            this.Load += new System.EventHandler(this.program_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
