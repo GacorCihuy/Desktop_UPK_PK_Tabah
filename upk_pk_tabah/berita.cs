@@ -26,5 +26,10 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void berita_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

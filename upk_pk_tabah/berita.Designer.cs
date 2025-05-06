@@ -76,7 +76,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(917, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(917, 398);
             this.dataGridView1.TabIndex = 7;
             // 
             // berita
@@ -91,6 +91,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "berita";
             this.Size = new System.Drawing.Size(998, 577);
+            this.Load += new System.EventHandler(this.berita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
