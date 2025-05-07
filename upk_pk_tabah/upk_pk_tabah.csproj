@@ -64,6 +64,36 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="editEkstrakurikuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editEkstrakurikuler.Designer.cs">
+      <DependentUpon>editEkstrakurikuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editKontak.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editKontak.Designer.cs">
+      <DependentUpon>editKontak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editppdb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editppdb.Designer.cs">
+      <DependentUpon>editppdb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editPrestasi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editPrestasi.Designer.cs">
+      <DependentUpon>editPrestasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editProgram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editProgram.Designer.cs">
+      <DependentUpon>editProgram.cs</DependentUpon>
+    </Compile>
     <Compile Include="hadist.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -107,6 +137,36 @@
       <DependentUpon>program.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tambahAlumni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahAlumni.Designer.cs">
+      <DependentUpon>tambahAlumni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahBerita.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahBerita.Designer.cs">
+      <DependentUpon>tambahBerita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahHadist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahHadist.Designer.cs">
+      <DependentUpon>tambahHadist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahKategori.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahKategori.Designer.cs">
+      <DependentUpon>tambahKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahProgram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahProgram.Designer.cs">
+      <DependentUpon>tambahProgram.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="alumni.resx">
       <DependentUpon>alumni.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +175,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEkstrakurikuler.resx">
+      <DependentUpon>editEkstrakurikuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editKontak.resx">
+      <DependentUpon>editKontak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editppdb.resx">
+      <DependentUpon>editppdb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editPrestasi.resx">
+      <DependentUpon>editPrestasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editProgram.resx">
+      <DependentUpon>editProgram.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hadist.resx">
       <DependentUpon>hadist.cs</DependentUpon>
@@ -146,6 +221,21 @@
     </Compile>
     <EmbeddedResource Include="siswa.resx">
       <DependentUpon>siswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahAlumni.resx">
+      <DependentUpon>tambahAlumni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahBerita.resx">
+      <DependentUpon>tambahBerita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahHadist.resx">
+      <DependentUpon>tambahHadist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahKategori.resx">
+      <DependentUpon>tambahKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahProgram.resx">
+      <DependentUpon>tambahProgram.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
