@@ -28,139 +28,181 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(editProgram));
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.judul = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label3
+            // dateTimePicker1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(156, 52);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 114;
-            this.label3.Text = "JUDUL";
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(159, 68);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(207, 20);
-            this.maskedTextBox2.TabIndex = 113;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(30, 290);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 31);
-            this.button3.TabIndex = 112;
-            this.button3.Text = "PILIH GAMBAR";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 274);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 111;
-            this.label2.Text = "FILE GAMBAR";
+            this.dateTimePicker1.Location = new System.Drawing.Point(53, 100);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(567, 22);
+            this.dateTimePicker1.TabIndex = 104;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(30, 352);
+            this.button2.BackColor = System.Drawing.Color.Lime;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(53, 477);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 36);
-            this.button2.TabIndex = 110;
+            this.button2.Size = new System.Drawing.Size(137, 44);
+            this.button2.TabIndex = 103;
             this.button2.Text = "UPLOAD";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 7.8F);
+            this.button1.Location = new System.Drawing.Point(53, 402);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(567, 38);
+            this.button1.TabIndex = 102;
+            this.button1.Text = "PILIH GAMBAR";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(49, 382);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 19);
+            this.label5.TabIndex = 101;
+            this.label5.Text = "FILE GAMBAR";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 111);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(49, 211);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 13);
-            this.label4.TabIndex = 109;
+            this.label4.Size = new System.Drawing.Size(77, 19);
+            this.label4.TabIndex = 100;
             this.label4.Text = "DESKRIPSI";
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(30, 127);
+            this.richTextBox2.Location = new System.Drawing.Point(53, 231);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(270, 100);
-            this.richTextBox2.TabIndex = 108;
+            this.richTextBox2.Size = new System.Drawing.Size(567, 122);
+            this.richTextBox2.TabIndex = 99;
             this.richTextBox2.Text = "";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(49, 145);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 19);
+            this.label3.TabIndex = 98;
+            this.label3.Text = "JUDUL";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(53, 165);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(567, 22);
+            this.maskedTextBox1.TabIndex = 97;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 52);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(49, 77);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 107;
+            this.label1.Size = new System.Drawing.Size(74, 19);
+            this.label1.TabIndex = 96;
             this.label1.Text = "TANGGAL";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(30, 68);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(76, 20);
-            this.dateTimePicker1.TabIndex = 106;
             // 
             // judul
             // 
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.judul.ForeColor = System.Drawing.Color.Green;
-            this.judul.Location = new System.Drawing.Point(26, 11);
-            this.judul.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.judul.Location = new System.Drawing.Point(48, 30);
             this.judul.Name = "judul";
-            this.judul.Size = new System.Drawing.Size(213, 20);
-            this.judul.TabIndex = 105;
+            this.judul.Size = new System.Drawing.Size(267, 25);
+            this.judul.TabIndex = 95;
             this.judul.Text = "EDIT PROGRAM UNGGULAN";
+            this.judul.Click += new System.EventHandler(this.judul_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Green;
-            this.panel1.Location = new System.Drawing.Point(14, 11);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(32, 30);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(8, 20);
-            this.panel1.TabIndex = 104;
+            this.panel1.Size = new System.Drawing.Size(11, 27);
+            this.panel1.TabIndex = 94;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(790, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(36, 39);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 106;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold);
+            this.button4.Location = new System.Drawing.Point(832, 30);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(127, 39);
+            this.button4.TabIndex = 105;
+            this.button4.Text = "KEMBALI";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // editProgram
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label2);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.judul);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "editProgram";
-            this.Size = new System.Drawing.Size(750, 436);
+            this.Size = new System.Drawing.Size(998, 577);
+            this.Load += new System.EventHandler(this.editProgram_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,16 +210,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label judul;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button4;
     }
 }

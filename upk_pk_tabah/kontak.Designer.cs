@@ -35,12 +35,12 @@
             // 
             // bTambah
             // 
-            this.bTambah.BackColor = System.Drawing.Color.Chartreuse;
+            this.bTambah.BackColor = System.Drawing.Color.Gold;
             this.bTambah.FlatAppearance.BorderSize = 0;
             this.bTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTambah.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.bTambah.ForeColor = System.Drawing.Color.White;
-            this.bTambah.Location = new System.Drawing.Point(40, 62);
+            this.bTambah.Location = new System.Drawing.Point(49, 65);
             this.bTambah.Name = "bTambah";
             this.bTambah.Size = new System.Drawing.Size(114, 32);
             this.bTambah.TabIndex = 10;
@@ -52,7 +52,7 @@
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.judul.ForeColor = System.Drawing.Color.Green;
-            this.judul.Location = new System.Drawing.Point(35, 21);
+            this.judul.Location = new System.Drawing.Point(44, 24);
             this.judul.Name = "judul";
             this.judul.Size = new System.Drawing.Size(189, 25);
             this.judul.TabIndex = 9;
@@ -61,7 +61,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Green;
-            this.panel1.Location = new System.Drawing.Point(18, 21);
+            this.panel1.Location = new System.Drawing.Point(27, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(11, 25);
             this.panel1.TabIndex = 8;
@@ -70,6 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.bTambah);
             this.Controls.Add(this.judul);
             this.Controls.Add(this.panel1);

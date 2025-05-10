@@ -21,5 +21,10 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void judul_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

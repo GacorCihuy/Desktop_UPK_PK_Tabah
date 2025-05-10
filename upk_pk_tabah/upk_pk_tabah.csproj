@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="aboutus.Designer.cs">
+      <DependentUpon>aboutus.cs</DependentUpon>
+    </Compile>
     <Compile Include="alumni.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -64,11 +70,35 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="editAlumni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editAlumni.Designer.cs">
+      <DependentUpon>editAlumni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editBerita.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editBerita.Designer.cs">
+      <DependentUpon>editBerita.cs</DependentUpon>
+    </Compile>
     <Compile Include="editEkstrakurikuler.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="editEkstrakurikuler.Designer.cs">
       <DependentUpon>editEkstrakurikuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editHadist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editHadist.Designer.cs">
+      <DependentUpon>editHadist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editKategori.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editKategori.Designer.cs">
+      <DependentUpon>editKategori.cs</DependentUpon>
     </Compile>
     <Compile Include="editKontak.cs">
       <SubType>UserControl</SubType>
@@ -76,11 +106,11 @@
     <Compile Include="editKontak.Designer.cs">
       <DependentUpon>editKontak.cs</DependentUpon>
     </Compile>
-    <Compile Include="editppdb.cs">
+    <Compile Include="editPpdb.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="editppdb.Designer.cs">
-      <DependentUpon>editppdb.cs</DependentUpon>
+    <Compile Include="editPpdb.Designer.cs">
+      <DependentUpon>editPpdb.cs</DependentUpon>
     </Compile>
     <Compile Include="editPrestasi.cs">
       <SubType>UserControl</SubType>
@@ -124,11 +154,17 @@
     <Compile Include="ppdb.Designer.cs">
       <DependentUpon>ppdb.cs</DependentUpon>
     </Compile>
-    <Compile Include="siswa.cs">
+    <Compile Include="prestasi.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="siswa.Designer.cs">
-      <DependentUpon>siswa.cs</DependentUpon>
+    <Compile Include="prestasi.Designer.cs">
+      <DependentUpon>prestasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ekstrakulikuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ekstrakulikuler.Designer.cs">
+      <DependentUpon>ekstrakulikuler.cs</DependentUpon>
     </Compile>
     <Compile Include="program.cs">
       <SubType>UserControl</SubType>
@@ -149,6 +185,12 @@
     <Compile Include="tambahBerita.Designer.cs">
       <DependentUpon>tambahBerita.cs</DependentUpon>
     </Compile>
+    <Compile Include="tambahEkstrakulikuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahEkstrakulikuler.Designer.cs">
+      <DependentUpon>tambahEkstrakulikuler.cs</DependentUpon>
+    </Compile>
     <Compile Include="tambahHadist.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -161,12 +203,21 @@
     <Compile Include="tambahKategori.Designer.cs">
       <DependentUpon>tambahKategori.cs</DependentUpon>
     </Compile>
+    <Compile Include="tambahPrestasi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tambahPrestasi.Designer.cs">
+      <DependentUpon>tambahPrestasi.cs</DependentUpon>
+    </Compile>
     <Compile Include="tambahProgram.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="tambahProgram.Designer.cs">
       <DependentUpon>tambahProgram.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="aboutus.resx">
+      <DependentUpon>aboutus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="alumni.resx">
       <DependentUpon>alumni.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,14 +227,26 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="editAlumni.resx">
+      <DependentUpon>editAlumni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editBerita.resx">
+      <DependentUpon>editBerita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="editEkstrakurikuler.resx">
       <DependentUpon>editEkstrakurikuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editHadist.resx">
+      <DependentUpon>editHadist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editKategori.resx">
+      <DependentUpon>editKategori.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="editKontak.resx">
       <DependentUpon>editKontak.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="editppdb.resx">
-      <DependentUpon>editppdb.cs</DependentUpon>
+    <EmbeddedResource Include="editPpdb.resx">
+      <DependentUpon>editPpdb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="editPrestasi.resx">
       <DependentUpon>editPrestasi.cs</DependentUpon>
@@ -206,6 +269,9 @@
     <EmbeddedResource Include="ppdb.resx">
       <DependentUpon>ppdb.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="prestasi.resx">
+      <DependentUpon>prestasi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="program.resx">
       <DependentUpon>program.cs</DependentUpon>
     </EmbeddedResource>
@@ -219,8 +285,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="siswa.resx">
-      <DependentUpon>siswa.cs</DependentUpon>
+    <EmbeddedResource Include="ekstrakulikuler.resx">
+      <DependentUpon>ekstrakulikuler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tambahAlumni.resx">
       <DependentUpon>tambahAlumni.cs</DependentUpon>
@@ -228,11 +294,17 @@
     <EmbeddedResource Include="tambahBerita.resx">
       <DependentUpon>tambahBerita.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tambahEkstrakulikuler.resx">
+      <DependentUpon>tambahEkstrakulikuler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tambahHadist.resx">
       <DependentUpon>tambahHadist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tambahKategori.resx">
       <DependentUpon>tambahKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahPrestasi.resx">
+      <DependentUpon>tambahPrestasi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tambahProgram.resx">
       <DependentUpon>tambahProgram.cs</DependentUpon>

@@ -88,5 +88,20 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tambahAlumni_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace upk_pk_tabah
 {
-    partial class siswa
+    partial class aboutus
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,35 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bTambah = new System.Windows.Forms.Button();
             this.judul = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 131);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(917, 398);
-            this.dataGridView1.TabIndex = 15;
             // 
             // bTambah
             // 
-            this.bTambah.BackColor = System.Drawing.Color.Chartreuse;
+            this.bTambah.BackColor = System.Drawing.Color.Gold;
             this.bTambah.FlatAppearance.BorderSize = 0;
             this.bTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTambah.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.bTambah.ForeColor = System.Drawing.Color.White;
-            this.bTambah.Location = new System.Drawing.Point(42, 62);
+            this.bTambah.Location = new System.Drawing.Point(48, 69);
             this.bTambah.Name = "bTambah";
             this.bTambah.Size = new System.Drawing.Size(114, 32);
-            this.bTambah.TabIndex = 14;
-            this.bTambah.Text = "TAMBAH +";
+            this.bTambah.TabIndex = 21;
+            this.bTambah.Text = "EDIT";
             this.bTambah.UseVisualStyleBackColor = false;
             // 
             // judul
@@ -64,31 +52,30 @@
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.judul.ForeColor = System.Drawing.Color.Green;
-            this.judul.Location = new System.Drawing.Point(37, 21);
+            this.judul.Location = new System.Drawing.Point(43, 28);
             this.judul.Name = "judul";
-            this.judul.Size = new System.Drawing.Size(173, 25);
-            this.judul.TabIndex = 13;
-            this.judul.Text = "HALAMAN SISWA";
+            this.judul.Size = new System.Drawing.Size(199, 25);
+            this.judul.TabIndex = 20;
+            this.judul.Text = "HALAMAN PRESTASI";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Green;
-            this.panel1.Location = new System.Drawing.Point(20, 21);
+            this.panel1.Location = new System.Drawing.Point(26, 28);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(11, 25);
-            this.panel1.TabIndex = 12;
+            this.panel1.TabIndex = 19;
             // 
-            // siswa
+            // aboutus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dataGridView1);
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.bTambah);
             this.Controls.Add(this.judul);
             this.Controls.Add(this.panel1);
-            this.Name = "siswa";
+            this.Name = "aboutus";
             this.Size = new System.Drawing.Size(998, 577);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,7 +83,6 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button bTambah;
         private System.Windows.Forms.Label judul;
         private System.Windows.Forms.Panel panel1;

@@ -28,5 +28,20 @@ namespace upk_pk_tabah
                 MessageBox.Show("File terpilih:\n" + filePath);
             }
         }
+
+        private void judul_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editProgram_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

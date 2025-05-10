@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace upk_pk_tabah
 {
-    public partial class siswa : UserControl
+    public partial class aboutus : UserControl
     {
-        public siswa()
+        public aboutus()
         {
             InitializeComponent();
         }

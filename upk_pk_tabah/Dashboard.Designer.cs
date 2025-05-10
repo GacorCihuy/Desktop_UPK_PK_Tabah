@@ -63,6 +63,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -79,11 +84,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.Controls.Add(this.pictureBox13);
+            this.panel2.Controls.Add(this.button12);
+            this.panel2.Controls.Add(this.pictureBox12);
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.button11);
             this.panel2.Controls.Add(this.pictureBox10);
             this.panel2.Controls.Add(this.button9);
             this.panel2.Controls.Add(this.pictureBox11);
@@ -95,7 +107,6 @@
             this.panel2.Controls.Add(this.pictureBox7);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.pictureBox8);
-            this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.pictureBox4);
@@ -113,9 +124,9 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(12, 398);
+            this.pictureBox10.Location = new System.Drawing.Point(12, 382);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox10.Size = new System.Drawing.Size(30, 30);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 23;
             this.pictureBox10.TabStop = false;
@@ -128,9 +139,9 @@
             this.button9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(58, 398);
+            this.button9.Location = new System.Drawing.Point(58, 382);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(114, 41);
+            this.button9.Size = new System.Drawing.Size(114, 30);
             this.button9.TabIndex = 22;
             this.button9.Text = "KATEGORI";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -139,9 +150,9 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(12, 351);
+            this.pictureBox11.Location = new System.Drawing.Point(12, 346);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox11.Size = new System.Drawing.Size(30, 30);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 21;
             this.pictureBox11.TabStop = false;
@@ -154,9 +165,9 @@
             this.button10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(58, 351);
+            this.button10.Location = new System.Drawing.Point(58, 346);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(114, 41);
+            this.button10.Size = new System.Drawing.Size(114, 30);
             this.button10.TabIndex = 20;
             this.button10.Text = "ALUMNI";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -167,7 +178,7 @@
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(12, 527);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox9.Size = new System.Drawing.Size(30, 30);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 19;
             this.pictureBox9.TabStop = false;
@@ -175,9 +186,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(12, 304);
+            this.pictureBox6.Location = new System.Drawing.Point(12, 310);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 19;
             this.pictureBox6.TabStop = false;
@@ -192,7 +203,7 @@
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(58, 527);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(114, 41);
+            this.button8.Size = new System.Drawing.Size(114, 30);
             this.button8.TabIndex = 18;
             this.button8.Text = "LOGOUT";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -206,9 +217,9 @@
             this.button5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(58, 304);
+            this.button5.Location = new System.Drawing.Point(58, 310);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(114, 41);
+            this.button5.Size = new System.Drawing.Size(114, 35);
             this.button5.TabIndex = 18;
             this.button5.Text = "HADIST";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,12 +228,13 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(12, 257);
+            this.pictureBox7.Location = new System.Drawing.Point(12, 274);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox7.Size = new System.Drawing.Size(30, 30);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // button6
             // 
@@ -232,9 +244,9 @@
             this.button6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(58, 257);
+            this.button6.Location = new System.Drawing.Point(58, 274);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(114, 41);
+            this.button6.Size = new System.Drawing.Size(114, 30);
             this.button6.TabIndex = 16;
             this.button6.Text = "PPDB";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -243,9 +255,9 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(12, 210);
+            this.pictureBox8.Location = new System.Drawing.Point(12, 238);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox8.Size = new System.Drawing.Size(30, 30);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
@@ -258,9 +270,9 @@
             this.button7.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(58, 210);
+            this.button7.Location = new System.Drawing.Point(58, 238);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(114, 41);
+            this.button7.Size = new System.Drawing.Size(114, 34);
             this.button7.TabIndex = 14;
             this.button7.Text = "KONTAK";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -269,9 +281,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 163);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 130);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
@@ -284,23 +296,24 @@
             this.button4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(58, 163);
+            this.button4.Location = new System.Drawing.Point(58, 130);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 41);
+            this.button4.Size = new System.Drawing.Size(114, 30);
             this.button4.TabIndex = 12;
-            this.button4.Text = "SISWA";
+            this.button4.Text = "PRESTASI";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 116);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 94);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // button3
             // 
@@ -310,20 +323,20 @@
             this.button3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(58, 116);
+            this.button3.Location = new System.Drawing.Point(58, 94);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 41);
+            this.button3.Size = new System.Drawing.Size(114, 30);
             this.button3.TabIndex = 10;
-            this.button3.Text = "PROGRAM";
+            this.button3.Text = "PROGRAM UNGGULAN";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 69);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 58);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -336,9 +349,9 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(58, 69);
+            this.button1.Location = new System.Drawing.Point(58, 58);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 41);
+            this.button1.Size = new System.Drawing.Size(114, 30);
             this.button1.TabIndex = 8;
             this.button1.Text = "BERITA";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -349,7 +362,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 41);
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -364,7 +377,7 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(58, 22);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 41);
+            this.button2.Size = new System.Drawing.Size(114, 30);
             this.button2.TabIndex = 5;
             this.button2.Text = "BERANDA";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -507,7 +520,8 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Lime;
+            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
+            this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Location = new System.Drawing.Point(226, 92);
@@ -521,7 +535,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(356, 92);
+            this.label12.Location = new System.Drawing.Point(356, 82);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(232, 35);
             this.label12.TabIndex = 14;
@@ -535,12 +549,78 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(313, 49);
+            this.label11.Location = new System.Drawing.Point(317, 36);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(322, 46);
             this.label11.TabIndex = 13;
             this.label11.Text = "SELAMAT DATANG";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.PaleGreen;
+            this.label6.Location = new System.Drawing.Point(376, 117);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(192, 20);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Anda masuk sebagai admin";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(12, 166);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 25;
+            this.pictureBox12.TabStop = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.SeaGreen;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(58, 166);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(141, 30);
+            this.button11.TabIndex = 24;
+            this.button11.Text = "EKTRAKULIKULER";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(12, 202);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 27;
+            this.pictureBox13.TabStop = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.SeaGreen;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(58, 202);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(141, 30);
+            this.button12.TabIndex = 26;
+            this.button12.Text = "ABOUT-US";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.UseVisualStyleBackColor = false;
             // 
             // Dashboard
             // 
@@ -575,6 +655,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -615,5 +697,10 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Button button12;
     }
 }

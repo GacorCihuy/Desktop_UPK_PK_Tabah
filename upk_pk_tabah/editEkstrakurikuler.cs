@@ -95,5 +95,20 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void editEkstrakurikuler_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

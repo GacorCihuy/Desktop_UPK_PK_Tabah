@@ -28,5 +28,15 @@ namespace upk_pk_tabah
                 MessageBox.Show("File terpilih:\n" + filePath);
             }
         }
+
+        private void judul_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tambahProgram_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

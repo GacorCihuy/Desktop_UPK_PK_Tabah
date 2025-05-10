@@ -10,35 +10,16 @@ using System.Windows.Forms;
 
 namespace upk_pk_tabah
 {
-    public partial class editppdb : UserControl
+    public partial class editPpdb : UserControl
     {
-        public editppdb()
+        public editPpdb()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
 
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                string filePath = openFileDialog.FileName;
-                MessageBox.Show("File terpilih:\n" + filePath);
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
-
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                string filePath = openFileDialog.FileName;
-                MessageBox.Show("File terpilih:\n" + filePath);
-            }
         }
     }
 }

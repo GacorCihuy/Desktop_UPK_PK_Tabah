@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\project\\desktop_upk_pk_tabah\\upk_pk_tabah\\editprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\project\\desktop_upk_pk_tabah\\upk_pk_tabah\\editprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\project\\desktop_upk_pk_tabah\\upk_pk_tabah\\editprestasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editprestasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\project\\desktop_upk_pk_tabah\\upk_pk_tabah\\editprestasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editprestasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\editkontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editkontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,52 +30,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "editPrestasi.cs",
-              "DocumentMoniker": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editPrestasi.cs",
-              "RelativeDocumentMoniker": "editPrestasi.cs",
-              "ToolTip": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editPrestasi.cs",
-              "RelativeToolTip": "editPrestasi.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:15:15.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "editProgram.cs",
-              "DocumentMoniker": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editProgram.cs",
-              "RelativeDocumentMoniker": "editProgram.cs",
-              "ToolTip": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editProgram.cs",
-              "RelativeToolTip": "editProgram.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:15:11.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "editProgram.cs [Design]",
-              "DocumentMoniker": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editProgram.cs",
-              "RelativeDocumentMoniker": "editProgram.cs",
-              "ToolTip": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editProgram.cs [Design]",
-              "RelativeToolTip": "editProgram.cs [Design]",
+              "Title": "editKontak.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs",
+              "RelativeDocumentMoniker": "editKontak.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs [Design]",
+              "RelativeToolTip": "editKontak.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:13:21.137Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "editPrestasi.cs [Design]",
-              "DocumentMoniker": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editPrestasi.cs",
-              "RelativeDocumentMoniker": "editPrestasi.cs",
-              "ToolTip": "C:\\Project\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editPrestasi.cs [Design]",
-              "RelativeToolTip": "editPrestasi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:09:38.092Z",
+              "WhenOpened": "2025-05-10T16:06:42.508Z",
               "EditorCaption": " [Design]"
             }
           ]

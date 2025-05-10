@@ -16,5 +16,10 @@ namespace upk_pk_tabah
         {
             InitializeComponent();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

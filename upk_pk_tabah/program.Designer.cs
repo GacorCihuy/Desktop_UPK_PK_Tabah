@@ -69,6 +69,7 @@
             this.judul.Size = new System.Drawing.Size(323, 25);
             this.judul.TabIndex = 9;
             this.judul.Text = "HALAMAN PROGRAM UNGGULAN";
+            this.judul.Click += new System.EventHandler(this.judul_Click);
             // 
             // panel1
             // 
