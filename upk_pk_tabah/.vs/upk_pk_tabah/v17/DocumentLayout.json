@@ -1,10 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
+  "WorkspaceRootPath": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\editkontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|upk_pk_tabah||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\appentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:appentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\editkontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:editkontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,10 +65,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "upk_pk_tabah",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\upk_pk_tabah.csproj",
+              "RelativeDocumentMoniker": "upk_pk_tabah.csproj",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\upk_pk_tabah.csproj",
+              "RelativeToolTip": "upk_pk_tabah.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-12T05:30:48.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppEntry.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\AppEntry.cs",
+              "RelativeDocumentMoniker": "AppEntry.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\AppEntry.cs",
+              "RelativeToolTip": "AppEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:29:24.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:25:05.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:24:12.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "program.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Program.cs [Design]",
+              "RelativeToolTip": "Program.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:24:08.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:14:38.702Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:14:26.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:03:02.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "editKontak.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs",
               "RelativeDocumentMoniker": "editKontak.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs [Design]",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\editKontak.cs [Design]",
               "RelativeToolTip": "editKontak.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T16:06:42.508Z",

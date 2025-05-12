@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>upk_pk_tabah.AppEntry</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +61,7 @@
     <Compile Include="alumni.Designer.cs">
       <DependentUpon>alumni.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppEntry.cs" />
     <Compile Include="berita.cs">
       <SubType>UserControl</SubType>
     </Compile>
