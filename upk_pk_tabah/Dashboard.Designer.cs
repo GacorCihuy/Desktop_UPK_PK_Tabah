@@ -30,30 +30,31 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.bAbout = new System.Windows.Forms.Button();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.bKontak = new System.Windows.Forms.Button();
+            this.bEkskul = new System.Windows.Forms.Button();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.button9 = new System.Windows.Forms.Button();
+            this.bKategori = new System.Windows.Forms.Button();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.button10 = new System.Windows.Forms.Button();
+            this.bAlumni = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.bLogout = new System.Windows.Forms.Button();
+            this.bHadist = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.bPpdb = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bPrestasi = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.bProgram = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bBerita = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bBeranda = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pSearch = new System.Windows.Forms.Panel();
-            this.search = new System.Windows.Forms.Label();
-            this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,14 +62,39 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.button12 = new System.Windows.Forms.Button();
+            this.beranda1 = new upk_pk_tabah.beranda();
+            this.tambahKategori1 = new upk_pk_tabah.tambahKategori();
+            this.editKategori1 = new upk_pk_tabah.editKategori();
+            this.kategori1 = new upk_pk_tabah.kategori();
+            this.tambahAlumni1 = new upk_pk_tabah.tambahAlumni();
+            this.editAlumni1 = new upk_pk_tabah.editAlumni();
+            this.alumni1 = new upk_pk_tabah.alumni();
+            this.hadist1 = new upk_pk_tabah.hadist();
+            this.editHadist1 = new upk_pk_tabah.editHadist();
+            this.tambahHadist1 = new upk_pk_tabah.tambahHadist();
+            this.editPpdb1 = new upk_pk_tabah.editPpdb();
+            this.ppdb1 = new upk_pk_tabah.ppdb();
+            this.editKontak1 = new upk_pk_tabah.editKontak();
+            this.kontak1 = new upk_pk_tabah.kontak();
+            this.editAboutus1 = new upk_pk_tabah.editAboutus();
+            this.aboutus1 = new upk_pk_tabah.aboutus();
+            this.tambahEkstrakulikuler1 = new upk_pk_tabah.tambahEkstrakulikuler();
+            this.editEkstrakurikuler1 = new upk_pk_tabah.editEkstrakurikuler();
+            this.ekstrakulikuler1 = new upk_pk_tabah.ekstrakulikuler();
+            this.tambahPrestasi1 = new upk_pk_tabah.tambahPrestasi();
+            this.editPrestasi1 = new upk_pk_tabah.editPrestasi();
+            this.prestasi1 = new upk_pk_tabah.prestasi();
+            this.editProgram1 = new upk_pk_tabah.editProgram();
+            this.tambahProgram1 = new upk_pk_tabah.tambahProgram();
+            this.program1 = new upk_pk_tabah.program();
+            this.editBerita1 = new upk_pk_tabah.editBerita();
+            this.tambahBerita1 = new upk_pk_tabah.tambahBerita();
+            this.berita1 = new upk_pk_tabah.berita();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -80,46 +106,114 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            this.pSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
             this.panel2.Controls.Add(this.pictureBox13);
-            this.panel2.Controls.Add(this.button12);
+            this.panel2.Controls.Add(this.bAbout);
             this.panel2.Controls.Add(this.pictureBox12);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.button11);
+            this.panel2.Controls.Add(this.bKontak);
+            this.panel2.Controls.Add(this.bEkskul);
             this.panel2.Controls.Add(this.pictureBox10);
-            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.bKategori);
             this.panel2.Controls.Add(this.pictureBox11);
-            this.panel2.Controls.Add(this.button10);
+            this.panel2.Controls.Add(this.bAlumni);
             this.panel2.Controls.Add(this.pictureBox9);
             this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.bLogout);
+            this.panel2.Controls.Add(this.bHadist);
             this.panel2.Controls.Add(this.pictureBox7);
-            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.bPpdb);
             this.panel2.Controls.Add(this.pictureBox8);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.bPrestasi);
             this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.bProgram);
             this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.bBerita);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.bBeranda);
             this.panel2.Location = new System.Drawing.Point(0, 70);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(205, 580);
             this.panel2.TabIndex = 5;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(12, 202);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 27;
+            this.pictureBox13.TabStop = false;
+            // 
+            // bAbout
+            // 
+            this.bAbout.BackColor = System.Drawing.Color.SeaGreen;
+            this.bAbout.FlatAppearance.BorderSize = 0;
+            this.bAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAbout.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bAbout.ForeColor = System.Drawing.Color.White;
+            this.bAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bAbout.Location = new System.Drawing.Point(58, 202);
+            this.bAbout.Name = "bAbout";
+            this.bAbout.Size = new System.Drawing.Size(141, 30);
+            this.bAbout.TabIndex = 26;
+            this.bAbout.Text = "ABOUT-US";
+            this.bAbout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bAbout.UseVisualStyleBackColor = false;
+            this.bAbout.Click += new System.EventHandler(this.bAbout_Click);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(12, 166);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 25;
+            this.pictureBox12.TabStop = false;
+            // 
+            // bKontak
+            // 
+            this.bKontak.BackColor = System.Drawing.Color.SeaGreen;
+            this.bKontak.FlatAppearance.BorderSize = 0;
+            this.bKontak.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bKontak.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bKontak.ForeColor = System.Drawing.Color.White;
+            this.bKontak.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bKontak.Location = new System.Drawing.Point(58, 238);
+            this.bKontak.Name = "bKontak";
+            this.bKontak.Size = new System.Drawing.Size(114, 34);
+            this.bKontak.TabIndex = 14;
+            this.bKontak.Text = "KONTAK";
+            this.bKontak.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bKontak.UseVisualStyleBackColor = false;
+            this.bKontak.Click += new System.EventHandler(this.bKontak_Click);
+            // 
+            // bEkskul
+            // 
+            this.bEkskul.BackColor = System.Drawing.Color.SeaGreen;
+            this.bEkskul.FlatAppearance.BorderSize = 0;
+            this.bEkskul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bEkskul.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bEkskul.ForeColor = System.Drawing.Color.White;
+            this.bEkskul.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bEkskul.Location = new System.Drawing.Point(58, 166);
+            this.bEkskul.Name = "bEkskul";
+            this.bEkskul.Size = new System.Drawing.Size(141, 30);
+            this.bEkskul.TabIndex = 24;
+            this.bEkskul.Text = "EKTRAKULIKULER";
+            this.bEkskul.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bEkskul.UseVisualStyleBackColor = false;
+            this.bEkskul.Click += new System.EventHandler(this.bEkskul_Click);
             // 
             // pictureBox10
             // 
@@ -131,21 +225,22 @@
             this.pictureBox10.TabIndex = 23;
             this.pictureBox10.TabStop = false;
             // 
-            // button9
+            // bKategori
             // 
-            this.button9.BackColor = System.Drawing.Color.SeaGreen;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(58, 382);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(114, 30);
-            this.button9.TabIndex = 22;
-            this.button9.Text = "KATEGORI";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
+            this.bKategori.BackColor = System.Drawing.Color.SeaGreen;
+            this.bKategori.FlatAppearance.BorderSize = 0;
+            this.bKategori.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bKategori.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bKategori.ForeColor = System.Drawing.Color.White;
+            this.bKategori.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bKategori.Location = new System.Drawing.Point(58, 382);
+            this.bKategori.Name = "bKategori";
+            this.bKategori.Size = new System.Drawing.Size(114, 30);
+            this.bKategori.TabIndex = 22;
+            this.bKategori.Text = "KATEGORI";
+            this.bKategori.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bKategori.UseVisualStyleBackColor = false;
+            this.bKategori.Click += new System.EventHandler(this.bKategori_Click);
             // 
             // pictureBox11
             // 
@@ -157,21 +252,22 @@
             this.pictureBox11.TabIndex = 21;
             this.pictureBox11.TabStop = false;
             // 
-            // button10
+            // bAlumni
             // 
-            this.button10.BackColor = System.Drawing.Color.SeaGreen;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(58, 346);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(114, 30);
-            this.button10.TabIndex = 20;
-            this.button10.Text = "ALUMNI";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
+            this.bAlumni.BackColor = System.Drawing.Color.SeaGreen;
+            this.bAlumni.FlatAppearance.BorderSize = 0;
+            this.bAlumni.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAlumni.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bAlumni.ForeColor = System.Drawing.Color.White;
+            this.bAlumni.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bAlumni.Location = new System.Drawing.Point(58, 346);
+            this.bAlumni.Name = "bAlumni";
+            this.bAlumni.Size = new System.Drawing.Size(114, 30);
+            this.bAlumni.TabIndex = 20;
+            this.bAlumni.Text = "ALUMNI";
+            this.bAlumni.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bAlumni.UseVisualStyleBackColor = false;
+            this.bAlumni.Click += new System.EventHandler(this.bAlumni_Click);
             // 
             // pictureBox9
             // 
@@ -193,37 +289,39 @@
             this.pictureBox6.TabIndex = 19;
             this.pictureBox6.TabStop = false;
             // 
-            // button8
+            // bLogout
             // 
-            this.button8.BackColor = System.Drawing.Color.SeaGreen;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(58, 527);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(114, 30);
-            this.button8.TabIndex = 18;
-            this.button8.Text = "LOGOUT";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = false;
+            this.bLogout.BackColor = System.Drawing.Color.SeaGreen;
+            this.bLogout.FlatAppearance.BorderSize = 0;
+            this.bLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bLogout.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bLogout.ForeColor = System.Drawing.Color.White;
+            this.bLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bLogout.Location = new System.Drawing.Point(58, 527);
+            this.bLogout.Name = "bLogout";
+            this.bLogout.Size = new System.Drawing.Size(114, 30);
+            this.bLogout.TabIndex = 18;
+            this.bLogout.Text = "LOGOUT";
+            this.bLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bLogout.UseVisualStyleBackColor = false;
+            this.bLogout.Click += new System.EventHandler(this.bLogout_Click);
             // 
-            // button5
+            // bHadist
             // 
-            this.button5.BackColor = System.Drawing.Color.SeaGreen;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(58, 310);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(114, 35);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "HADIST";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.bHadist.BackColor = System.Drawing.Color.SeaGreen;
+            this.bHadist.FlatAppearance.BorderSize = 0;
+            this.bHadist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bHadist.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bHadist.ForeColor = System.Drawing.Color.White;
+            this.bHadist.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bHadist.Location = new System.Drawing.Point(58, 310);
+            this.bHadist.Name = "bHadist";
+            this.bHadist.Size = new System.Drawing.Size(114, 35);
+            this.bHadist.TabIndex = 18;
+            this.bHadist.Text = "HADIST";
+            this.bHadist.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bHadist.UseVisualStyleBackColor = false;
+            this.bHadist.Click += new System.EventHandler(this.bHadist_Click);
             // 
             // pictureBox7
             // 
@@ -236,21 +334,22 @@
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // button6
+            // bPpdb
             // 
-            this.button6.BackColor = System.Drawing.Color.SeaGreen;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(58, 274);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(114, 30);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "PPDB";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
+            this.bPpdb.BackColor = System.Drawing.Color.SeaGreen;
+            this.bPpdb.FlatAppearance.BorderSize = 0;
+            this.bPpdb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bPpdb.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bPpdb.ForeColor = System.Drawing.Color.White;
+            this.bPpdb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bPpdb.Location = new System.Drawing.Point(58, 274);
+            this.bPpdb.Name = "bPpdb";
+            this.bPpdb.Size = new System.Drawing.Size(114, 30);
+            this.bPpdb.TabIndex = 16;
+            this.bPpdb.Text = "PPDB";
+            this.bPpdb.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bPpdb.UseVisualStyleBackColor = false;
+            this.bPpdb.Click += new System.EventHandler(this.bPpdb_Click);
             // 
             // pictureBox8
             // 
@@ -262,22 +361,6 @@
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.SeaGreen;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(58, 238);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(114, 34);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "KONTAK";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
@@ -288,21 +371,22 @@
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
-            // button4
+            // bPrestasi
             // 
-            this.button4.BackColor = System.Drawing.Color.SeaGreen;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(58, 130);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 30);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "PRESTASI";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.bPrestasi.BackColor = System.Drawing.Color.SeaGreen;
+            this.bPrestasi.FlatAppearance.BorderSize = 0;
+            this.bPrestasi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bPrestasi.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bPrestasi.ForeColor = System.Drawing.Color.White;
+            this.bPrestasi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bPrestasi.Location = new System.Drawing.Point(58, 130);
+            this.bPrestasi.Name = "bPrestasi";
+            this.bPrestasi.Size = new System.Drawing.Size(114, 30);
+            this.bPrestasi.TabIndex = 12;
+            this.bPrestasi.Text = "PRESTASI";
+            this.bPrestasi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bPrestasi.UseVisualStyleBackColor = false;
+            this.bPrestasi.Click += new System.EventHandler(this.bPrestasi_Click);
             // 
             // pictureBox4
             // 
@@ -315,21 +399,22 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // button3
+            // bProgram
             // 
-            this.button3.BackColor = System.Drawing.Color.SeaGreen;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(58, 94);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 30);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "PROGRAM UNGGULAN";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.bProgram.BackColor = System.Drawing.Color.SeaGreen;
+            this.bProgram.FlatAppearance.BorderSize = 0;
+            this.bProgram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bProgram.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bProgram.ForeColor = System.Drawing.Color.White;
+            this.bProgram.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bProgram.Location = new System.Drawing.Point(58, 94);
+            this.bProgram.Name = "bProgram";
+            this.bProgram.Size = new System.Drawing.Size(114, 30);
+            this.bProgram.TabIndex = 10;
+            this.bProgram.Text = "PROGRAM UNGGULAN";
+            this.bProgram.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bProgram.UseVisualStyleBackColor = false;
+            this.bProgram.Click += new System.EventHandler(this.bProgram_Click);
             // 
             // pictureBox3
             // 
@@ -341,21 +426,22 @@
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
-            // button1
+            // bBerita
             // 
-            this.button1.BackColor = System.Drawing.Color.SeaGreen;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(58, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 30);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "BERITA";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.bBerita.BackColor = System.Drawing.Color.SeaGreen;
+            this.bBerita.FlatAppearance.BorderSize = 0;
+            this.bBerita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bBerita.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bBerita.ForeColor = System.Drawing.Color.White;
+            this.bBerita.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bBerita.Location = new System.Drawing.Point(58, 58);
+            this.bBerita.Name = "bBerita";
+            this.bBerita.Size = new System.Drawing.Size(114, 30);
+            this.bBerita.TabIndex = 8;
+            this.bBerita.Text = "BERITA";
+            this.bBerita.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bBerita.UseVisualStyleBackColor = false;
+            this.bBerita.Click += new System.EventHandler(this.bBerita_Click);
             // 
             // pictureBox1
             // 
@@ -367,27 +453,28 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // bBeranda
             // 
-            this.button2.BackColor = System.Drawing.Color.SeaGreen;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(58, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 30);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "BERANDA";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bBeranda.BackColor = System.Drawing.Color.SeaGreen;
+            this.bBeranda.FlatAppearance.BorderSize = 0;
+            this.bBeranda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bBeranda.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.bBeranda.ForeColor = System.Drawing.Color.White;
+            this.bBeranda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bBeranda.Location = new System.Drawing.Point(58, 22);
+            this.bBeranda.Name = "bBeranda";
+            this.bBeranda.Size = new System.Drawing.Size(114, 30);
+            this.bBeranda.TabIndex = 5;
+            this.bBeranda.Text = "BERANDA";
+            this.bBeranda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bBeranda.UseVisualStyleBackColor = false;
+            this.bBeranda.Click += new System.EventHandler(this.bBeranda_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(149)))), ((int)(((byte)(100)))));
-            this.panel1.Controls.Add(this.pSearch);
+            this.panel1.Controls.Add(this.maskedTextBox1);
+            this.panel1.Controls.Add(this.pictureBoxSearch);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -397,43 +484,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1200, 78);
             this.panel1.TabIndex = 6;
-            // 
-            // pSearch
-            // 
-            this.pSearch.BackColor = System.Drawing.Color.White;
-            this.pSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pSearch.Controls.Add(this.search);
-            this.pSearch.Controls.Add(this.pictureBoxSearch);
-            this.pSearch.Location = new System.Drawing.Point(946, 18);
-            this.pSearch.Margin = new System.Windows.Forms.Padding(4);
-            this.pSearch.Name = "pSearch";
-            this.pSearch.Size = new System.Drawing.Size(229, 43);
-            this.pSearch.TabIndex = 12;
-            // 
-            // search
-            // 
-            this.search.AutoSize = true;
-            this.search.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.search.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.search.Location = new System.Drawing.Point(34, 11);
-            this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(58, 19);
-            this.search.TabIndex = 14;
-            this.search.Text = "Search...";
-            this.search.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.search.Click += new System.EventHandler(this.search_Click);
-            // 
-            // pictureBoxSearch
-            // 
-            this.pictureBoxSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBoxSearch.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSearch.Image")));
-            this.pictureBoxSearch.Location = new System.Drawing.Point(3, 8);
-            this.pictureBoxSearch.Name = "pictureBoxSearch";
-            this.pictureBoxSearch.Size = new System.Drawing.Size(25, 25);
-            this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxSearch.TabIndex = 13;
-            this.pictureBoxSearch.TabStop = false;
-            this.pictureBoxSearch.UseWaitCursor = true;
             // 
             // label1
             // 
@@ -520,107 +570,292 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label12);
-            this.panel3.Controls.Add(this.label11);
-            this.panel3.Location = new System.Drawing.Point(226, 92);
+            this.panel3.Controls.Add(this.beranda1);
+            this.panel3.Controls.Add(this.tambahKategori1);
+            this.panel3.Controls.Add(this.editKategori1);
+            this.panel3.Controls.Add(this.kategori1);
+            this.panel3.Controls.Add(this.tambahAlumni1);
+            this.panel3.Controls.Add(this.editAlumni1);
+            this.panel3.Controls.Add(this.alumni1);
+            this.panel3.Controls.Add(this.hadist1);
+            this.panel3.Controls.Add(this.editHadist1);
+            this.panel3.Controls.Add(this.tambahHadist1);
+            this.panel3.Controls.Add(this.editPpdb1);
+            this.panel3.Controls.Add(this.ppdb1);
+            this.panel3.Controls.Add(this.editKontak1);
+            this.panel3.Controls.Add(this.kontak1);
+            this.panel3.Controls.Add(this.editAboutus1);
+            this.panel3.Controls.Add(this.aboutus1);
+            this.panel3.Controls.Add(this.tambahEkstrakulikuler1);
+            this.panel3.Controls.Add(this.editEkstrakurikuler1);
+            this.panel3.Controls.Add(this.ekstrakulikuler1);
+            this.panel3.Controls.Add(this.tambahPrestasi1);
+            this.panel3.Controls.Add(this.editPrestasi1);
+            this.panel3.Controls.Add(this.prestasi1);
+            this.panel3.Controls.Add(this.editProgram1);
+            this.panel3.Controls.Add(this.tambahProgram1);
+            this.panel3.Controls.Add(this.program1);
+            this.panel3.Controls.Add(this.editBerita1);
+            this.panel3.Controls.Add(this.tambahBerita1);
+            this.panel3.Controls.Add(this.berita1);
+            this.panel3.Location = new System.Drawing.Point(205, 83);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(949, 182);
+            this.panel3.Size = new System.Drawing.Size(995, 567);
             this.panel3.TabIndex = 7;
             // 
-            // label12
+            // beranda1
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(356, 82);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(232, 35);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "ADMIN PK TABAH";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.label12_Click);
+            this.beranda1.BackColor = System.Drawing.Color.White;
+            this.beranda1.Location = new System.Drawing.Point(-2, -9);
+            this.beranda1.Name = "beranda1";
+            this.beranda1.Size = new System.Drawing.Size(998, 577);
+            this.beranda1.TabIndex = 28;
             // 
-            // label11
+            // tambahKategori1
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(317, 36);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(322, 46);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "SELAMAT DATANG";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.tambahKategori1.BackColor = System.Drawing.Color.White;
+            this.tambahKategori1.Location = new System.Drawing.Point(-2, -9);
+            this.tambahKategori1.Margin = new System.Windows.Forms.Padding(4);
+            this.tambahKategori1.Name = "tambahKategori1";
+            this.tambahKategori1.Size = new System.Drawing.Size(998, 577);
+            this.tambahKategori1.TabIndex = 27;
             // 
-            // label6
+            // editKategori1
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.PaleGreen;
-            this.label6.Location = new System.Drawing.Point(376, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(192, 20);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Anda masuk sebagai admin";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.editKategori1.BackColor = System.Drawing.Color.White;
+            this.editKategori1.Location = new System.Drawing.Point(-3, -9);
+            this.editKategori1.Name = "editKategori1";
+            this.editKategori1.Size = new System.Drawing.Size(998, 577);
+            this.editKategori1.TabIndex = 26;
             // 
-            // pictureBox12
+            // kategori1
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(12, 166);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 25;
-            this.pictureBox12.TabStop = false;
+            this.kategori1.Location = new System.Drawing.Point(0, -3);
+            this.kategori1.Name = "kategori1";
+            this.kategori1.Size = new System.Drawing.Size(998, 577);
+            this.kategori1.TabIndex = 25;
             // 
-            // button11
+            // tambahAlumni1
             // 
-            this.button11.BackColor = System.Drawing.Color.SeaGreen;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(58, 166);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(141, 30);
-            this.button11.TabIndex = 24;
-            this.button11.Text = "EKTRAKULIKULER";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
+            this.tambahAlumni1.BackColor = System.Drawing.Color.White;
+            this.tambahAlumni1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.tambahAlumni1.Location = new System.Drawing.Point(1, -9);
+            this.tambahAlumni1.Margin = new System.Windows.Forms.Padding(4);
+            this.tambahAlumni1.Name = "tambahAlumni1";
+            this.tambahAlumni1.Size = new System.Drawing.Size(998, 577);
+            this.tambahAlumni1.TabIndex = 24;
             // 
-            // pictureBox13
+            // editAlumni1
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(12, 202);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 27;
-            this.pictureBox13.TabStop = false;
+            this.editAlumni1.BackColor = System.Drawing.Color.White;
+            this.editAlumni1.Location = new System.Drawing.Point(0, -9);
+            this.editAlumni1.Name = "editAlumni1";
+            this.editAlumni1.Size = new System.Drawing.Size(998, 577);
+            this.editAlumni1.TabIndex = 23;
             // 
-            // button12
+            // alumni1
             // 
-            this.button12.BackColor = System.Drawing.Color.SeaGreen;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(58, 202);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(141, 30);
-            this.button12.TabIndex = 26;
-            this.button12.Text = "ABOUT-US";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.UseVisualStyleBackColor = false;
+            this.alumni1.BackColor = System.Drawing.Color.White;
+            this.alumni1.Location = new System.Drawing.Point(-3, -9);
+            this.alumni1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.alumni1.Name = "alumni1";
+            this.alumni1.Size = new System.Drawing.Size(997, 577);
+            this.alumni1.TabIndex = 22;
+            // 
+            // hadist1
+            // 
+            this.hadist1.Location = new System.Drawing.Point(0, -9);
+            this.hadist1.Name = "hadist1";
+            this.hadist1.Size = new System.Drawing.Size(998, 577);
+            this.hadist1.TabIndex = 21;
+            // 
+            // editHadist1
+            // 
+            this.editHadist1.BackColor = System.Drawing.Color.White;
+            this.editHadist1.Location = new System.Drawing.Point(0, -10);
+            this.editHadist1.Name = "editHadist1";
+            this.editHadist1.Size = new System.Drawing.Size(998, 577);
+            this.editHadist1.TabIndex = 20;
+            // 
+            // tambahHadist1
+            // 
+            this.tambahHadist1.BackColor = System.Drawing.Color.White;
+            this.tambahHadist1.Location = new System.Drawing.Point(-3, -9);
+            this.tambahHadist1.Margin = new System.Windows.Forms.Padding(4);
+            this.tambahHadist1.Name = "tambahHadist1";
+            this.tambahHadist1.Size = new System.Drawing.Size(998, 577);
+            this.tambahHadist1.TabIndex = 19;
+            // 
+            // editPpdb1
+            // 
+            this.editPpdb1.BackColor = System.Drawing.Color.White;
+            this.editPpdb1.Location = new System.Drawing.Point(-2, -10);
+            this.editPpdb1.Name = "editPpdb1";
+            this.editPpdb1.Size = new System.Drawing.Size(998, 577);
+            this.editPpdb1.TabIndex = 18;
+            // 
+            // ppdb1
+            // 
+            this.ppdb1.BackColor = System.Drawing.Color.White;
+            this.ppdb1.Location = new System.Drawing.Point(0, -9);
+            this.ppdb1.Name = "ppdb1";
+            this.ppdb1.Size = new System.Drawing.Size(998, 577);
+            this.ppdb1.TabIndex = 17;
+            // 
+            // editKontak1
+            // 
+            this.editKontak1.BackColor = System.Drawing.Color.White;
+            this.editKontak1.Location = new System.Drawing.Point(0, -9);
+            this.editKontak1.Margin = new System.Windows.Forms.Padding(4);
+            this.editKontak1.Name = "editKontak1";
+            this.editKontak1.Size = new System.Drawing.Size(992, 583);
+            this.editKontak1.TabIndex = 16;
+            // 
+            // kontak1
+            // 
+            this.kontak1.BackColor = System.Drawing.Color.White;
+            this.kontak1.Location = new System.Drawing.Point(0, -9);
+            this.kontak1.Name = "kontak1";
+            this.kontak1.Size = new System.Drawing.Size(998, 577);
+            this.kontak1.TabIndex = 15;
+            // 
+            // editAboutus1
+            // 
+            this.editAboutus1.BackColor = System.Drawing.Color.White;
+            this.editAboutus1.Location = new System.Drawing.Point(-2, -9);
+            this.editAboutus1.Name = "editAboutus1";
+            this.editAboutus1.Size = new System.Drawing.Size(998, 577);
+            this.editAboutus1.TabIndex = 14;
+            // 
+            // aboutus1
+            // 
+            this.aboutus1.BackColor = System.Drawing.Color.White;
+            this.aboutus1.Location = new System.Drawing.Point(-3, -9);
+            this.aboutus1.Name = "aboutus1";
+            this.aboutus1.Size = new System.Drawing.Size(998, 577);
+            this.aboutus1.TabIndex = 13;
+            // 
+            // tambahEkstrakulikuler1
+            // 
+            this.tambahEkstrakulikuler1.BackColor = System.Drawing.Color.White;
+            this.tambahEkstrakulikuler1.Location = new System.Drawing.Point(-2, -9);
+            this.tambahEkstrakulikuler1.Name = "tambahEkstrakulikuler1";
+            this.tambahEkstrakulikuler1.Size = new System.Drawing.Size(998, 577);
+            this.tambahEkstrakulikuler1.TabIndex = 12;
+            // 
+            // editEkstrakurikuler1
+            // 
+            this.editEkstrakurikuler1.BackColor = System.Drawing.Color.White;
+            this.editEkstrakurikuler1.Location = new System.Drawing.Point(0, -9);
+            this.editEkstrakurikuler1.Margin = new System.Windows.Forms.Padding(4);
+            this.editEkstrakurikuler1.Name = "editEkstrakurikuler1";
+            this.editEkstrakurikuler1.Size = new System.Drawing.Size(998, 577);
+            this.editEkstrakurikuler1.TabIndex = 11;
+            // 
+            // ekstrakulikuler1
+            // 
+            this.ekstrakulikuler1.Location = new System.Drawing.Point(0, -3);
+            this.ekstrakulikuler1.Name = "ekstrakulikuler1";
+            this.ekstrakulikuler1.Size = new System.Drawing.Size(998, 577);
+            this.ekstrakulikuler1.TabIndex = 10;
+            // 
+            // tambahPrestasi1
+            // 
+            this.tambahPrestasi1.BackColor = System.Drawing.Color.White;
+            this.tambahPrestasi1.Location = new System.Drawing.Point(0, -3);
+            this.tambahPrestasi1.Name = "tambahPrestasi1";
+            this.tambahPrestasi1.Size = new System.Drawing.Size(996, 577);
+            this.tambahPrestasi1.TabIndex = 9;
+            // 
+            // editPrestasi1
+            // 
+            this.editPrestasi1.BackColor = System.Drawing.Color.White;
+            this.editPrestasi1.Location = new System.Drawing.Point(0, -3);
+            this.editPrestasi1.Margin = new System.Windows.Forms.Padding(4);
+            this.editPrestasi1.Name = "editPrestasi1";
+            this.editPrestasi1.Size = new System.Drawing.Size(998, 577);
+            this.editPrestasi1.TabIndex = 8;
+            // 
+            // prestasi1
+            // 
+            this.prestasi1.BackColor = System.Drawing.Color.White;
+            this.prestasi1.Location = new System.Drawing.Point(0, -3);
+            this.prestasi1.Name = "prestasi1";
+            this.prestasi1.Size = new System.Drawing.Size(996, 571);
+            this.prestasi1.TabIndex = 7;
+            // 
+            // editProgram1
+            // 
+            this.editProgram1.BackColor = System.Drawing.Color.White;
+            this.editProgram1.Location = new System.Drawing.Point(-2, -3);
+            this.editProgram1.Margin = new System.Windows.Forms.Padding(4);
+            this.editProgram1.Name = "editProgram1";
+            this.editProgram1.Size = new System.Drawing.Size(998, 571);
+            this.editProgram1.TabIndex = 6;
+            // 
+            // tambahProgram1
+            // 
+            this.tambahProgram1.BackColor = System.Drawing.Color.White;
+            this.tambahProgram1.Location = new System.Drawing.Point(0, -9);
+            this.tambahProgram1.Margin = new System.Windows.Forms.Padding(4);
+            this.tambahProgram1.Name = "tambahProgram1";
+            this.tambahProgram1.Size = new System.Drawing.Size(998, 577);
+            this.tambahProgram1.TabIndex = 5;
+            // 
+            // program1
+            // 
+            this.program1.Location = new System.Drawing.Point(-3, 0);
+            this.program1.Name = "program1";
+            this.program1.Size = new System.Drawing.Size(998, 567);
+            this.program1.TabIndex = 4;
+            // 
+            // editBerita1
+            // 
+            this.editBerita1.BackColor = System.Drawing.Color.White;
+            this.editBerita1.Location = new System.Drawing.Point(0, -3);
+            this.editBerita1.Name = "editBerita1";
+            this.editBerita1.Size = new System.Drawing.Size(998, 567);
+            this.editBerita1.TabIndex = 3;
+            // 
+            // tambahBerita1
+            // 
+            this.tambahBerita1.BackColor = System.Drawing.Color.White;
+            this.tambahBerita1.Location = new System.Drawing.Point(-2, -9);
+            this.tambahBerita1.Margin = new System.Windows.Forms.Padding(4);
+            this.tambahBerita1.Name = "tambahBerita1";
+            this.tambahBerita1.Size = new System.Drawing.Size(995, 567);
+            this.tambahBerita1.TabIndex = 2;
+            // 
+            // berita1
+            // 
+            this.berita1.BackColor = System.Drawing.Color.White;
+            this.berita1.Location = new System.Drawing.Point(-2, 0);
+            this.berita1.Margin = new System.Windows.Forms.Padding(4);
+            this.berita1.Name = "berita1";
+            this.berita1.Size = new System.Drawing.Size(994, 567);
+            this.berita1.TabIndex = 1;
+            this.berita1.Load += new System.EventHandler(this.berita1_Load);
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(940, 30);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(226, 22);
+            this.maskedTextBox1.TabIndex = 70;
+            // 
+            // pictureBoxSearch
+            // 
+            this.pictureBoxSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBoxSearch.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSearch.Image")));
+            this.pictureBoxSearch.Location = new System.Drawing.Point(917, 30);
+            this.pictureBoxSearch.Name = "pictureBoxSearch";
+            this.pictureBoxSearch.Size = new System.Drawing.Size(22, 22);
+            this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearch.TabIndex = 13;
+            this.pictureBoxSearch.TabStop = false;
+            this.pictureBoxSearch.UseWaitCursor = true;
+            this.pictureBoxSearch.Click += new System.EventHandler(this.pictureBoxSearch_Click);
             // 
             // Dashboard
             // 
@@ -637,6 +872,8 @@
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -649,14 +886,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.pSearch.ResumeLayout(false);
-            this.pSearch.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -665,42 +897,66 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBoxSearch;
-        private System.Windows.Forms.Panel pSearch;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label search;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bBeranda;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button bProgram;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bBerita;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button bLogout;
+        private System.Windows.Forms.Button bHadist;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button bPpdb;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button bKontak;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bPrestasi;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button bKategori;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button bAlumni;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button bEkskul;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button bAbout;
+        private System.Windows.Forms.Panel panel3;
+        private program program1;
+        private editBerita editBerita1;
+        private tambahBerita tambahBerita1;
+        private berita berita1;
+        private tambahPrestasi tambahPrestasi1;
+        private editPrestasi editPrestasi1;
+        private prestasi prestasi1;
+        private editProgram editProgram1;
+        private tambahProgram tambahProgram1;
+        private tambahEkstrakulikuler tambahEkstrakulikuler1;
+        private editEkstrakurikuler editEkstrakurikuler1;
+        private ekstrakulikuler ekstrakulikuler1;
+        private editKontak editKontak1;
+        private kontak kontak1;
+        private editAboutus editAboutus1;
+        private aboutus aboutus1;
+        private editPpdb editPpdb1;
+        private ppdb ppdb1;
+        private editHadist editHadist1;
+        private tambahHadist tambahHadist1;
+        private hadist hadist1;
+        private tambahKategori tambahKategori1;
+        private editKategori editKategori1;
+        private kategori kategori1;
+        private tambahAlumni tambahAlumni1;
+        private editAlumni editAlumni1;
+        private alumni alumni1;
+        private beranda beranda1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.PictureBox pictureBoxSearch;
     }
 }

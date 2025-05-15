@@ -62,6 +62,12 @@
       <DependentUpon>alumni.cs</DependentUpon>
     </Compile>
     <Compile Include="AppEntry.cs" />
+    <Compile Include="beranda.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="beranda.Designer.cs">
+      <DependentUpon>beranda.cs</DependentUpon>
+    </Compile>
     <Compile Include="berita.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -73,6 +79,12 @@
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editAboutus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editAboutus.Designer.cs">
+      <DependentUpon>editAboutus.cs</DependentUpon>
     </Compile>
     <Compile Include="editAlumni.cs">
       <SubType>UserControl</SubType>
@@ -225,11 +237,17 @@
     <EmbeddedResource Include="alumni.resx">
       <DependentUpon>alumni.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="beranda.resx">
+      <DependentUpon>beranda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="berita.resx">
       <DependentUpon>berita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editAboutus.resx">
+      <DependentUpon>editAboutus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="editAlumni.resx">
       <DependentUpon>editAlumni.cs</DependentUpon>

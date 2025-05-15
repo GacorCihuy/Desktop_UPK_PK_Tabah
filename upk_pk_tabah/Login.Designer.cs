@@ -46,8 +46,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.bLogin = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -254,6 +254,7 @@
             this.bLogin.TabIndex = 13;
             this.bLogin.Text = "LOGIN";
             this.bLogin.UseVisualStyleBackColor = false;
+            this.bLogin.Click += new System.EventHandler(this.bLogin_Click);
             // 
             // panel2
             // 
@@ -264,19 +265,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(549, 652);
             this.panel2.TabIndex = 14;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(117, 247);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(322, 46);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "SELAMAT DATANG";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
@@ -290,6 +278,19 @@
             this.label12.TabIndex = 12;
             this.label12.Text = "ADMIN PK TABAH";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(117, 247);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(322, 46);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "SELAMAT DATANG";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Login
             // 

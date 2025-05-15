@@ -104,3 +104,8 @@ C:\Users\dell\Projects\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.
 C:\Users\dell\Projects\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.csproj.CoreCompileInputs.cache
 C:\Users\dell\Projects\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.exe
 C:\Users\dell\Projects\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.pdb
+C:\Users\LENOVO\Source\Repos\Desktop_UPK_PK_Tabah\upk_pk_tabah\bin\Debug\upk_pk_tabah.exe.config
+C:\Users\LENOVO\Source\Repos\Desktop_UPK_PK_Tabah\upk_pk_tabah\bin\Debug\upk_pk_tabah.exe
+C:\Users\LENOVO\Source\Repos\Desktop_UPK_PK_Tabah\upk_pk_tabah\bin\Debug\upk_pk_tabah.pdb
+C:\Users\LENOVO\Source\Repos\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.beranda.resources
+C:\Users\LENOVO\Source\Repos\Desktop_UPK_PK_Tabah\upk_pk_tabah\obj\Debug\upk_pk_tabah.editAboutus.resources

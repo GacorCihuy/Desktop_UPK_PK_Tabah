@@ -32,6 +32,8 @@
             this.judul = new System.Windows.Forms.Label();
             this.bTambah = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +59,7 @@
             // 
             // bTambah
             // 
-            this.bTambah.BackColor = System.Drawing.Color.Chartreuse;
+            this.bTambah.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.bTambah.FlatAppearance.BorderSize = 0;
             this.bTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTambah.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
@@ -68,6 +70,7 @@
             this.bTambah.TabIndex = 6;
             this.bTambah.Text = "TAMBAH +";
             this.bTambah.UseVisualStyleBackColor = false;
+            this.bTambah.Click += new System.EventHandler(this.bTambah_Click);
             // 
             // dataGridView1
             // 
@@ -79,11 +82,44 @@
             this.dataGridView1.Size = new System.Drawing.Size(917, 398);
             this.dataGridView1.TabIndex = 7;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Gold;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(805, 55);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(72, 32);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "EDIT";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(883, 55);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(72, 32);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "DELETE";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // berita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bTambah);
             this.Controls.Add(this.judul);
@@ -104,5 +140,7 @@
         private System.Windows.Forms.Label judul;
         private System.Windows.Forms.Button bTambah;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

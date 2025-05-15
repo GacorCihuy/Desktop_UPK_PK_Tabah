@@ -51,5 +51,12 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void bLogin_Click(object sender, EventArgs e)
+        {
+            Dashboard window = new Dashboard();
+            window.Show();
+        }
+        }
     }
-}
+

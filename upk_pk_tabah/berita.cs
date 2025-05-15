@@ -31,5 +31,16 @@ namespace upk_pk_tabah
         {
 
         }
+
+        private void bTambah_Click(object sender, EventArgs e)
+        {
+            tambahBerita form =  new tambahBerita();
+            form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
