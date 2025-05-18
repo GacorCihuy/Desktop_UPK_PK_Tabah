@@ -122,6 +122,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ekstrakulikuler";
             this.Size = new System.Drawing.Size(998, 577);
+            this.Load += new System.EventHandler(this.ekstrakulikuler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

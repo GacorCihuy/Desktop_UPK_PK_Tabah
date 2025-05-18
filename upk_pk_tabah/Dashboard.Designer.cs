@@ -55,6 +55,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bBeranda = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -90,8 +92,6 @@
             this.editBerita1 = new upk_pk_tabah.editBerita();
             this.tambahBerita1 = new upk_pk_tabah.tambahBerita();
             this.berita1 = new upk_pk_tabah.berita();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBoxSearch = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -106,9 +106,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -485,6 +485,27 @@
             this.panel1.Size = new System.Drawing.Size(1200, 78);
             this.panel1.TabIndex = 6;
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(940, 30);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(226, 22);
+            this.maskedTextBox1.TabIndex = 70;
+            // 
+            // pictureBoxSearch
+            // 
+            this.pictureBoxSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBoxSearch.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSearch.Image")));
+            this.pictureBoxSearch.Location = new System.Drawing.Point(917, 30);
+            this.pictureBoxSearch.Name = "pictureBoxSearch";
+            this.pictureBoxSearch.Size = new System.Drawing.Size(22, 22);
+            this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearch.TabIndex = 13;
+            this.pictureBoxSearch.TabStop = false;
+            this.pictureBoxSearch.UseWaitCursor = true;
+            this.pictureBoxSearch.Click += new System.EventHandler(this.pictureBoxSearch_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -610,6 +631,7 @@
             this.beranda1.Name = "beranda1";
             this.beranda1.Size = new System.Drawing.Size(998, 577);
             this.beranda1.TabIndex = 28;
+            this.beranda1.Load += new System.EventHandler(this.beranda1_Load);
             // 
             // tambahKategori1
             // 
@@ -836,27 +858,6 @@
             this.berita1.TabIndex = 1;
             this.berita1.Load += new System.EventHandler(this.berita1_Load);
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(940, 30);
-            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(226, 22);
-            this.maskedTextBox1.TabIndex = 70;
-            // 
-            // pictureBoxSearch
-            // 
-            this.pictureBoxSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBoxSearch.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSearch.Image")));
-            this.pictureBoxSearch.Location = new System.Drawing.Point(917, 30);
-            this.pictureBoxSearch.Name = "pictureBoxSearch";
-            this.pictureBoxSearch.Size = new System.Drawing.Size(22, 22);
-            this.pictureBoxSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxSearch.TabIndex = 13;
-            this.pictureBoxSearch.TabStop = false;
-            this.pictureBoxSearch.UseWaitCursor = true;
-            this.pictureBoxSearch.Click += new System.EventHandler(this.pictureBoxSearch_Click);
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -886,9 +887,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearch)).EndInit();
             this.ResumeLayout(false);
 
         }

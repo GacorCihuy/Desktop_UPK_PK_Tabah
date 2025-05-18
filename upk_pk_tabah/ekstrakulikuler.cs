@@ -16,5 +16,10 @@ namespace upk_pk_tabah
         {
             InitializeComponent();
         }
+
+        private void ekstrakulikuler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

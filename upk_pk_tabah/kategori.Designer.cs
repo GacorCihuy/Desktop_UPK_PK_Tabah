@@ -60,6 +60,7 @@
             this.bTambah.TabIndex = 10;
             this.bTambah.Text = "TAMBAH +";
             this.bTambah.UseVisualStyleBackColor = false;
+            this.bTambah.Click += new System.EventHandler(this.bTambah_Click);
             // 
             // judul
             // 

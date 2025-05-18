@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
+  "WorkspaceRootPath": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\tambahberita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:tambahberita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\lenovo\\source\\repos\\desktop_upk_pk_tabah\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\ekstrakulikuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:ekstrakulikuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:berita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\tambahkategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:tambahkategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\kontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:kontak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|c:\\users\\dell\\projects\\desktop_upk_pk_tabah\\upk_pk_tabah\\appentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:appentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahberita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B92444-8D1B-4443-B15C-7DBA4A28EA57}|upk_pk_tabah.csproj|solutionrelative:tambahberita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +54,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs [Design]",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs [Design]",
               "RelativeToolTip": "Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:57:38.017Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "berita.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
-              "RelativeDocumentMoniker": "berita.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
-              "RelativeToolTip": "berita.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:32:43.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "berita.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
-              "RelativeDocumentMoniker": "berita.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs [Design]",
-              "RelativeToolTip": "berita.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:32:41.663Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tambahBerita.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahBerita.cs",
-              "RelativeDocumentMoniker": "tambahBerita.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahBerita.cs [Design]",
-              "RelativeToolTip": "tambahBerita.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:32:37.152Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAawFoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:32:28.59Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -106,6 +80,130 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "berita.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
+              "RelativeDocumentMoniker": "berita.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
+              "RelativeToolTip": "berita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:47:29.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ekstrakulikuler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\ekstrakulikuler.cs",
+              "RelativeDocumentMoniker": "ekstrakulikuler.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\ekstrakulikuler.cs [Design]",
+              "RelativeToolTip": "ekstrakulikuler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:04:35.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "berita.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs",
+              "RelativeDocumentMoniker": "berita.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\berita.cs [Design]",
+              "RelativeToolTip": "berita.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:02:12.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "kontak.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kontak.cs",
+              "RelativeDocumentMoniker": "kontak.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kontak.cs [Design]",
+              "RelativeToolTip": "kontak.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:54:10.535Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "kategori.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kategori.cs",
+              "RelativeDocumentMoniker": "kategori.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kategori.cs",
+              "RelativeToolTip": "kategori.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:49:51.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:49:04.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tambahKategori.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahKategori.cs",
+              "RelativeDocumentMoniker": "tambahKategori.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahKategori.cs [Design]",
+              "RelativeToolTip": "tambahKategori.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:48:12.339Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "kategori.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kategori.cs",
+              "RelativeDocumentMoniker": "kategori.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\kategori.cs [Design]",
+              "RelativeToolTip": "kategori.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:42:13.732Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppEntry.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\AppEntry.cs",
+              "RelativeDocumentMoniker": "AppEntry.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\AppEntry.cs",
+              "RelativeToolTip": "AppEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:25:21.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "tambahBerita.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahBerita.cs",
+              "RelativeDocumentMoniker": "tambahBerita.cs",
+              "ToolTip": "C:\\Users\\dell\\Projects\\Desktop_UPK_PK_Tabah\\upk_pk_tabah\\tambahBerita.cs [Design]",
+              "RelativeToolTip": "tambahBerita.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:32:37.152Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
